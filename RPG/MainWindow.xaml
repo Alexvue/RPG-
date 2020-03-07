@@ -1,0 +1,135 @@
+﻿<Window x:Class="RPG.MainWindow"
+        x:Name="window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RPG"
+        mc:Ignorable="d"
+        Title="RPG" Height="535.276" Width="601.886">
+    <Grid>
+        <TabControl x:Name="tab_control" Margin="0,0,0,0" SelectionChanged="Tab_control_SelectionChanged">
+            <TabItem x:Name="tab_me" Header="Мой герой">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="3*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="4*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock x:Name="tb_name" Margin="10" TextWrapping="Wrap" Text="Место для имени" Grid.ColumnSpan="4" FontSize="20" FontWeight="Bold" TextAlignment="Center"/>
+                    <Image x:Name="photo" Margin="10,10,10,10" Grid.RowSpan="4" Grid.ColumnSpan="2" Grid.Column="2" Grid.Row="1"/>
+                    <GroupBox x:Name="gb_general" Header="Общее" Margin="10,10,10,10" Grid.Row="3" Grid.ColumnSpan="2" FontSize="16">
+                        <TextBlock x:Name="tb_general" Margin="10,10,10,10" TextWrapping="Wrap" Text="Место для общего"/>
+                    </GroupBox>
+                    <GroupBox x:Name="gr_abilities" Header="Способности" Margin="10,10,10,10" Grid.Row="4" Grid.ColumnSpan="2" FontSize="16">
+                        <TextBlock x:Name="tb_abilities" Margin="10,10,10,10" TextWrapping="Wrap" Text="Место для способностей"/>
+                    </GroupBox>
+                    <TextBlock x:Name="tb_text_gender" Margin="10" Grid.Row="2" TextWrapping="Wrap" Text="Пол" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock x:Name="tb_text_age" Margin="10" Grid.Row="1" TextWrapping="Wrap" Text="Возраст" FontWeight="Bold" FontSize="16"/>
+                    <TextBlock x:Name="tb_gender" Grid.Column="1" Margin="10,10,10,10" Grid.Row="2" TextWrapping="Wrap" Text="Для пола" FontSize="16"/>
+                    <TextBlock x:Name="tb_age" Grid.Column="1" Margin="10,10,10,10" Grid.Row="1" TextWrapping="Wrap" Text="Для лет" FontSize="16"/>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="tab_settings" Header="Настройки">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="3*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="btn_apply_settings" Content="Применить" Margin="10,10.5,10,11" Grid.Row="10" Grid.ColumnSpan="2" Click="Btn_apply_settings_Click"/>
+                    <TextBlock x:Name="tb_text_sett_name" Margin="10,10,10,10.5" TextWrapping="Wrap" Text="Имя" FontWeight="Bold"/>
+                    <TextBox x:Name="tb_sett_name" Grid.Column="1" Margin="10,10,10,9.5" TextWrapping="Wrap"/>
+                    <TextBlock x:Name="tb_text_sett_age" Margin="10,8.5,10,9.5" Grid.Row="1" TextWrapping="Wrap" Text="Возраст" FontWeight="Bold"/>
+                    <TextBox x:Name="tb_sett_age" Grid.Column="1" Margin="10,10.5,10,9.5" Grid.Row="1" TextWrapping="Wrap" />
+                    <TextBlock x:Name="tb_text_sett_gender" Margin="10,10.5,10,10" Grid.Row="2" TextWrapping="Wrap" Text="Пол" FontWeight="Bold"/>
+                    <ComboBox x:Name="cb_sett_gender" Grid.Column="1" Margin="10,10.5,10,10" Grid.Row="2">
+                        <TextBlock>Мужчина</TextBlock>
+                        <TextBlock>Женщина</TextBlock>
+                        <TextBlock>Не определено</TextBlock>
+                    </ComboBox>
+                    <TextBlock x:Name="tb_text_sett_skillpoints" Margin="10" Grid.Row="3" TextWrapping="Wrap" Text="Очки характеристик" FontWeight="Bold"/>
+                    <TextBlock x:Name="tb_sett_skillpoints" Grid.Column="1" Margin="10" Grid.Row="3" TextWrapping="Wrap" Text="Место для очков"/>
+                    <TextBlock x:Name="tb_text_sett_strength" Margin="10,10,10,10.5" Grid.Row="4" TextWrapping="Wrap" Text="Сила" FontWeight="Bold"/>
+                    <TextBlock x:Name="tb_text_sett_intellect" Margin="10,9.5,10,10.5" Grid.Row="5" TextWrapping="Wrap" Text="Интеллект" FontWeight="Bold"/>
+                    <Slider x:Name="sl_strength" Grid.Column="1" Margin="10,10,8,0" Grid.Row="4" VerticalAlignment="Top" Height="21" SmallChange="0" AutoToolTipPlacement="TopLeft" IsSnapToTickEnabled="True" ValueChanged="Sl_strength_ValueChanged"/>
+                    <Slider x:Name="sl_intellect" Grid.Column="1" Margin="10,9.5,10,10.5" Grid.Row="5" SmallChange="1" AutoToolTipPlacement="TopLeft" IsSnapToTickEnabled="True" ValueChanged="Sl_intellect_ValueChanged"/>
+                    <TextBlock x:Name="tb_text_sett_photo" Margin="10,10.5,10,9.5" Grid.Row="9" TextWrapping="Wrap" Text="Фото" FontWeight="Bold"/>
+                    <Button x:Name="btn_load_photo" Content="Выбрать фотографию" Grid.Column="1" Margin="10,10.5,10,9.5" Grid.Row="9" Click="Btn_load_photo_Click"/>
+                    <TextBlock x:Name="tb_text_sett_stamina" Margin="10,9,10,10" Grid.Row="6" TextWrapping="Wrap" Text="Выносливость" FontWeight="Bold"/>
+                    <Slider x:Name="sl_stamina" Grid.Column="1" Margin="10,9,10,10" Grid.Row="6" SmallChange="1" AutoToolTipPlacement="TopLeft" IsSnapToTickEnabled="True" ValueChanged="Sl_stamina_ValueChanged"/>
+                    <TextBlock x:Name="tb_text_sett_dexterity" Margin="10" Grid.Row="7" TextWrapping="Wrap" Text="Ловкость" FontWeight="Bold"/>
+                    <Slider x:Name="sl_dexterity" Grid.Column="1" Margin="10" Grid.Row="7" SmallChange="1" AutoToolTipPlacement="TopLeft" IsSnapToTickEnabled="True" ValueChanged="Sl_dexterity_ValueChanged"/>
+                    <TextBlock x:Name="tb_text_sett_luck" Margin="10,9,10,10" Grid.Row="8" TextWrapping="Wrap" Text="Удача" FontWeight="Bold"/>
+                    <Slider x:Name="sl_luck" Grid.Column="1" Margin="10,10,10,9" Grid.Row="8" SmallChange="1" AutoToolTipPlacement="TopLeft" IsSnapToTickEnabled="True" ValueChanged="Sl_luck_ValueChanged"/>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="tab_fight" Header="Сражение">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40*"/>
+                        <RowDefinition Height="454*"/>
+                    </Grid.RowDefinitions>
+                    <Button x:Name="btn_fight" Content="Начать сражение" Margin="10" Grid.ColumnSpan="3" Click="Btn_fight_Click"/>
+                    <Grid x:Name="grid_fight" Margin="0,0,0,0" Grid.Row="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="4*"/>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="2*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Image x:Name="img_fight_hero" Margin="10" Grid.Row="1"/>
+                        <Image x:Name="img_fight_enemy" Grid.Column="3" Margin="10" Grid.Row="1"/>
+                        <TextBlock x:Name="tb_fight_name_hero" Margin="10,10,9,10" TextWrapping="Wrap" Text="Имя героя" FontSize="16" TextAlignment="Center" Grid.ColumnSpan="2"/>
+                        <TextBlock x:Name="tb_fight_name_enemy" Grid.Column="2" Margin="10" TextWrapping="Wrap" Text="Имя врага" FontSize="16" TextAlignment="Center" Grid.ColumnSpan="2"/>
+                        <ProgressBar x:Name="pb_fight_hero_hp" Margin="10" Grid.Row="2" AutomationProperties.HelpText="HP" Grid.ColumnSpan="2"/>
+                        <TextBlock x:Name="tb_fight_hero_hp" Text="{Binding ElementName=pb_fight_hero_hp, Path=Value, StringFormat=Здоровье: {0}}" HorizontalAlignment="Center" VerticalAlignment="Bottom" Grid.Row="2" Grid.ColumnSpan="2" Margin="10,0,10,12" TextAlignment="Center" Width="274"/>
+                        <ProgressBar x:Name="pb_fight_hero_mana" Margin="10,10,10,9.5" Grid.Row="3" Grid.ColumnSpan="2"/>
+                        <TextBlock x:Name="tb_fight_hero_mana" Text="{Binding ElementName=pb_fight_hero_mana, Path=Value, StringFormat=Мана: {0}}" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3" Grid.ColumnSpan="2" Margin="0,0,0,0"/>
+                        <ComboBox x:Name="cb_figth_abilities" Margin="10,11,10,0" Grid.Row="4" Grid.ColumnSpan="4" FontSize="14">
+                            <ComboBoxItem x:Name="cbi_attack" Content="Атака"/>
+                            <ComboBoxItem x:Name="cbi_strong_attack" Content="Сильная атака"/>
+                        </ComboBox>
+                        <Button x:Name="btn_figth_apply_ability" Content="Применить способность" Margin="10,11,10,0" Grid.Row="5" Grid.ColumnSpan="4" Click="Btn_figth_apply_ability_Click"/>
+                        <ProgressBar x:Name="pb_fight_enemy_hp" Grid.Column="2" Margin="10" Grid.Row="2" Grid.ColumnSpan="2"/>
+                        <TextBlock x:Name="tb_fight_enemy_hp" Text="{Binding ElementName=pb_fight_enemy_hp, Path=Value, StringFormat=Здоровье: {0}}" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="2" Grid.Row="2" Grid.ColumnSpan="2" Margin="10,12" TextAlignment="Center" Width="274"/>
+                        <ProgressBar x:Name="pb_fight_enemy_mana" Grid.Column="2" Margin="10,10,10,9.5" Grid.Row="3" Grid.ColumnSpan="2"/>
+                        <TextBlock x:Name="tb_fight_enemy_mana" Text="{Binding ElementName=pb_fight_enemy_mana, Path=Value, StringFormat=Мана: {0}}" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="2" Grid.Row="3" Grid.ColumnSpan="2" Margin="0,0,0,0"/>
+                        <ListBox x:Name="lb_fight_log" Margin="10,9.5,10,10" Grid.ColumnSpan="4" Grid.Row="6"/>
+                        <TextBlock x:Name="tb_fight_log" Grid.Column="2" Margin="52,144,116,77" TextWrapping="Wrap" Text="Ход сражения" FontSize="16" TextAlignment="Center" Grid.ColumnSpan="2" Grid.Row="1"/>
+                        <TextBlock x:Name="tb_figth_hero_abilities" Grid.Column="1" Margin="10,10.5,10,10" Grid.Row="1" TextWrapping="Wrap" Text="Место для способностей героя" FontSize="14"/>
+                        <TextBlock x:Name="tb_figth_enemy_abilities" Grid.Column="2" Margin="10,10.5,10,10" Grid.Row="1" TextWrapping="Wrap" Text="Место для способностей врага" TextAlignment="Right" FontSize="14"/>
+                    </Grid>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

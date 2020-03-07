@@ -1,0 +1,43 @@
+C:\Users\syasi\Google Диск\ШП\Рабочая папка преподавана\C#\20.02.01 - ООП. Социальная сеть\RPG\RPG\bin\Debug\RPG.exe.config
+C:\Users\syasi\Google Диск\ШП\Рабочая папка преподавана\C#\20.02.01 - ООП. Социальная сеть\RPG\RPG\bin\Debug\RPG.exe
+C:\Users\syasi\Google Диск\ШП\Рабочая папка преподавана\C#\20.02.01 - ООП. Социальная сеть\RPG\RPG\bin\Debug\RPG.pdb
+C:\Users\syasi\Google Диск\ШП\Рабочая папка преподавана\C#\20.02.01 - ООП. Социальная сеть\RPG\RPG\obj\Debug\RPG.csprojResolveAssemblyReference.cache
+C:\Users\syasi\Google Диск\ШП\Рабочая папка преподавана\C#\20.02.01 - ООП. Социальная сеть\RPG\RPG\obj\Debug\MainWindow.g.cs
+C:\Users\syasi\Google Диск\ШП\Рабочая папка преподавана\C#\20.02.01 - ООП. Социальная сеть\RPG\RPG\obj\Debug\App.g.cs
+C:\Users\syasi\Google Диск\ШП\Рабочая папка преподавана\C#\20.02.01 - ООП. Социальная сеть\RPG\RPG\obj\Debug\RPG_MarkupCompile.cache
+C:\Users\syasi\Google Диск\ШП\Рабочая папка преподавана\C#\20.02.01 - ООП. Социальная сеть\RPG\RPG\obj\Debug\RPG_MarkupCompile.lref
+C:\Users\syasi\Google Диск\ШП\Рабочая папка преподавана\C#\20.02.01 - ООП. Социальная сеть\RPG\RPG\obj\Debug\MainWindow.baml
+C:\Users\syasi\Google Диск\ШП\Рабочая папка преподавана\C#\20.02.01 - ООП. Социальная сеть\RPG\RPG\obj\Debug\RPG.g.resources
+C:\Users\syasi\Google Диск\ШП\Рабочая папка преподавана\C#\20.02.01 - ООП. Социальная сеть\RPG\RPG\obj\Debug\RPG.Properties.Resources.resources
+C:\Users\syasi\Google Диск\ШП\Рабочая папка преподавана\C#\20.02.01 - ООП. Социальная сеть\RPG\RPG\obj\Debug\RPG.csproj.GenerateResource.Cache
+C:\Users\syasi\Google Диск\ШП\Рабочая папка преподавана\C#\20.02.01 - ООП. Социальная сеть\RPG\RPG\obj\Debug\RPG.exe
+C:\Users\syasi\Google Диск\ШП\Рабочая папка преподавана\C#\20.02.01 - ООП. Социальная сеть\RPG\RPG\obj\Debug\RPG.pdb
+C:\Users\syasi\Google Диск\ШП\Рабочая папка преподавана\C#\20.02.01 - ООП. Социальная сеть\RPG — шаблон\RPG\bin\Debug\RPG.exe.config
+C:\Users\syasi\Google Диск\ШП\Рабочая папка преподавана\C#\20.02.01 - ООП. Социальная сеть\RPG — шаблон\RPG\obj\Debug\RPG.exe
+C:\Users\syasi\Google Диск\ШП\Рабочая папка преподавана\C#\20.02.01 - ООП. Социальная сеть\RPG — шаблон\RPG\obj\Debug\RPG.pdb
+C:\Users\syasi\Google Диск\ШП\Рабочая папка преподавана\C#\20.02.01 - ООП. Социальная сеть\RPG — шаблон\RPG\bin\Debug\RPG.exe
+C:\Users\syasi\Google Диск\ШП\Рабочая папка преподавана\C#\20.02.01 - ООП. Социальная сеть\RPG — шаблон\RPG\bin\Debug\RPG.pdb
+C:\Users\syasi\Google Диск\ШП\Рабочая папка преподавана\C#\20.02.01 - ООП. Социальная сеть\RPG — шаблон\RPG\obj\Debug\RPG.csprojResolveAssemblyReference.cache
+C:\Users\syasi\Google Диск\ШП\Рабочая папка преподавана\C#\20.02.01 - ООП. Социальная сеть\RPG — шаблон\RPG\obj\Debug\MainWindow.g.cs
+C:\Users\syasi\Google Диск\ШП\Рабочая папка преподавана\C#\20.02.01 - ООП. Социальная сеть\RPG — шаблон\RPG\obj\Debug\App.g.cs
+C:\Users\syasi\Google Диск\ШП\Рабочая папка преподавана\C#\20.02.01 - ООП. Социальная сеть\RPG — шаблон\RPG\obj\Debug\RPG_MarkupCompile.cache
+C:\Users\syasi\Google Диск\ШП\Рабочая папка преподавана\C#\20.02.01 - ООП. Социальная сеть\RPG — шаблон\RPG\obj\Debug\RPG_MarkupCompile.lref
+C:\Users\syasi\Google Диск\ШП\Рабочая папка преподавана\C#\20.02.01 - ООП. Социальная сеть\RPG — шаблон\RPG\obj\Debug\MainWindow.baml
+C:\Users\syasi\Google Диск\ШП\Рабочая папка преподавана\C#\20.02.01 - ООП. Социальная сеть\RPG — шаблон\RPG\obj\Debug\RPG.g.resources
+C:\Users\syasi\Google Диск\ШП\Рабочая папка преподавана\C#\20.02.01 - ООП. Социальная сеть\RPG — шаблон\RPG\obj\Debug\RPG.Properties.Resources.resources
+C:\Users\syasi\Google Диск\ШП\Рабочая папка преподавана\C#\20.02.01 - ООП. Социальная сеть\RPG — шаблон\RPG\obj\Debug\RPG.csproj.GenerateResource.Cache
+C:\Users\akosh\Desktop\Школа Программистов\C#\RPG_(shablon) (1)\RPG (шаблон)\RPG\bin\Debug\RPG.exe.config
+C:\Users\akosh\Desktop\Школа Программистов\C#\RPG_(shablon) (1)\RPG (шаблон)\RPG\bin\Debug\RPG.exe
+C:\Users\akosh\Desktop\Школа Программистов\C#\RPG_(shablon) (1)\RPG (шаблон)\RPG\bin\Debug\RPG.pdb
+C:\Users\akosh\Desktop\Школа Программистов\C#\RPG_(shablon) (1)\RPG (шаблон)\RPG\obj\Debug\RPG.csprojAssemblyReference.cache
+C:\Users\akosh\Desktop\Школа Программистов\C#\RPG_(shablon) (1)\RPG (шаблон)\RPG\obj\Debug\MainWindow.g.cs
+C:\Users\akosh\Desktop\Школа Программистов\C#\RPG_(shablon) (1)\RPG (шаблон)\RPG\obj\Debug\App.g.cs
+C:\Users\akosh\Desktop\Школа Программистов\C#\RPG_(shablon) (1)\RPG (шаблон)\RPG\obj\Debug\RPG_MarkupCompile.cache
+C:\Users\akosh\Desktop\Школа Программистов\C#\RPG_(shablon) (1)\RPG (шаблон)\RPG\obj\Debug\RPG_MarkupCompile.lref
+C:\Users\akosh\Desktop\Школа Программистов\C#\RPG_(shablon) (1)\RPG (шаблон)\RPG\obj\Debug\MainWindow.baml
+C:\Users\akosh\Desktop\Школа Программистов\C#\RPG_(shablon) (1)\RPG (шаблон)\RPG\obj\Debug\RPG.g.resources
+C:\Users\akosh\Desktop\Школа Программистов\C#\RPG_(shablon) (1)\RPG (шаблон)\RPG\obj\Debug\RPG.Properties.Resources.resources
+C:\Users\akosh\Desktop\Школа Программистов\C#\RPG_(shablon) (1)\RPG (шаблон)\RPG\obj\Debug\RPG.csproj.GenerateResource.cache
+C:\Users\akosh\Desktop\Школа Программистов\C#\RPG_(shablon) (1)\RPG (шаблон)\RPG\obj\Debug\RPG.csproj.CoreCompileInputs.cache
+C:\Users\akosh\Desktop\Школа Программистов\C#\RPG_(shablon) (1)\RPG (шаблон)\RPG\obj\Debug\RPG.exe
+C:\Users\akosh\Desktop\Школа Программистов\C#\RPG_(shablon) (1)\RPG (шаблон)\RPG\obj\Debug\RPG.pdb
